@@ -9,6 +9,11 @@ if not os.path.exists("datasets/raw/combined_games.csv"):
 df = pd.read_csv("datasets/raw/combined_games.csv")
 
 
+def EDA(df):
+    pass
+def preprocess(df):
+    pass
+
 print(df.columns)
 print(df.isna().sum())
 
